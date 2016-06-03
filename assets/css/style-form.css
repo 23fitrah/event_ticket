@@ -1,0 +1,23 @@
+.background2{background-color:orange;background-repeat:repeat-x;background-position:top;-moz-border-radius:15px}
+			.garis{
+			background-color:white;
+			border: solid #0000ff 1.5px;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border-radius: 6px;
+			-webkit-box-shadow: 0 20px 20px ;
+			-moz-box-shadow: 0 20px 20px ;
+			box-shadow: 0 20px 20px ;
+			border-collapse: collapse;
+			}
+.margin{margin-left:10%;margin-right:10%;margin-top:5%;margin-bottom:5%}
+			.title{text-align:center;font-family:Calibri;color:green}
+			.form{margin-right:5%;margin-left:5%;font-family:Calibri}
+			.require{color:red}
+			.header_bar{font-weight:bold;font-align:center}
+			.line{border-top: 1px solid black;}
+			#sidebar_left{margin-top:10px;float:left; width:33.3%;  margin:3px 0;padding:3px; border:0px solid #009900;-webkit-border-radius: 6px;-webkit-border-radius: 6px;
+			border-radius: 6px;}
+			#center{margin-top:10px;float:left; width: 29.5%; margin:3px; padding:3px; border:0px solid #009900;}
+			#sidebar_right{margin-top:10px;float:left; width:33.3%;  margin:3px 0; padding: 3px; border: 0px solid #009900;}
+			#footer{height:50px; border:0px solid #009900;clear: both;text-align:right}

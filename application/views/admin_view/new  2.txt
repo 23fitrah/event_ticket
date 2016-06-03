@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+<head>
+			<meta name="keywords" content=" " />
+			<meta name="description" content=" " />
+			<meta charset="utf-8" />
+			<link rel="stylesheet" href="style.css: " />
+			<script type="text/javascript" src="<?php echo base_url('asset/bootstrap/js/bootstrap.js');?>"></script>
+			<link href="<?php echo base_url();?>css/bootstrap-responsive.min.css" rel="stylesheet">
+			<style type="text/css">
+			.background1{background-color:orange;background-size:7% 7%;background-image:url('<?php echo base_url(); ?>images/faviconpimpi.png');background-repeat:repeat}
+			.background2{background-color:orange;background-repeat:repeat-x;background-position:top;-moz-border-radius:15px}
+			.garis{
+			background-color:white;
+			border: solid white 1.5px;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border-radius: 6px;
+			-webkit-box-shadow: 0 0px 0px ;
+			-moz-box-shadow: 0  0px 0px ;
+			box-shadow: 0  0px 0px ;
+			border-collapse: collapse;
+			}
+			.margin{margin-left:10%;margin-right:10%;margin-top:5%;margin-bottom:5%}
+			.title{text-align:center;font-family:Calibri;color:green}
+			.form{margin-right:5%;margin-left:5%;font-family:Calibri}
+			.require{color:red}
+			.header_bar{font-weight:bold;font-align:center}
+			.line{border-top: 2px solid #0000ff;}
+			#sidebar_left{margin-top:10px;float:left; width:33.3%;  margin:3px 0;padding:3px; border:0px solid #009900;-webkit-border-radius: 6px;-webkit-border-radius: 6px;
+			border-radius: 6px;}
+			#center{margin-top:10px;float:left; width: 29.5%; margin:3px; padding:3px; border:0px solid #009900;}
+			#sidebar_right{margin-top:10px;float:left; width:33.3%;  margin:3px 0; padding: 3px; border: 0px solid #009900;}
+			#footer{height:10%; border:0px solid #009900;clear: both}
+			
+			.confirm-margin{margin-left:30%;margin-right:30%;margin-top:5%;margin-bottom:5%}
+			.confirm-title{font-size:15pt}
+			.site{font-size:12pt}
+			.body{text-indent:13pt;color:green}
+			#confirm-footer{height:10%; border:0px solid #009900;clear: both;font-size:9pt}
+			
+			#header{background-size:1% 1%;background-image:url('<?php echo base_url();?>images/header-admin.png');background-repeat:repeat-x}
+			.admin-background{background-color:rgb(245,245,245);background-size:20% 25%;background-image:url('<?php echo base_url();?>images/header-admin.png');
+			background-position: top;
+			background-repeat: repeat-x}
+			.logo{margin-left:2.5%}
+			.admin-footer{background:orange;position:absolute;bottom:0;width:100%;text-align:center;color:black;}
+			.admin-margin{margin-left:2.5%;margin-right:2.5%;margin-top:4%;margin-bottom:5%;background-color:white;height:300pt}
+			.admin-head{font-size:20pt;text-align:center}
+			.admin-logo{background: orange url("<?php echo base_url();?>images/PIMPI2013.png") no-repeat}
+		
+			
+			#header{
+margin: 0 auto;
+width: 1100px;
+height: 110px;
+background-size:10pt 82.5pt;
+background-image:url('<?php echo base_url();?>images/header-admin.png');
+background-repeat:repeat-x;
+}
+
+#judul
+{
+font-size: 34px;
+color: #F5DEB3;
+position : relative;
+top: 70px;
+left: 20px;
+}
+
+#container
+{
+margin: 2px auto;
+width: 1100px;
+background-color: #4682B4;
+}
+
+.clearfloat
+{
+clear: both;
+}
+
+#kiri
+{
+float: left;
+width: 200px;
+height: 400px;
+
+background-color: #F5DEB3;
+}
+
+#kanan
+{
+float: right;
+width: 700px;
+
+background-color: #BB6601;
+}
+
+#footer
+{
+margin: 0 auto;
+width:1100px;
+height: 40px;
+padding-top: 20px;
+
+background-image:url('<?php echo base_url();?>images/header-admin.png');;
+}
+
+#copyright
+{
+text-align: center;
+
+background-color: #777001;
+}
+.background{background-color:rgb(245,245,245)}
+			</style>
+<title>Formulir Seminar PIMPI</title>
+</head>
+	<body class="background">
+		<div id="header">
+<div id="judul">
+Judul Website
+</div>
+</div>
+<div id="container">
+<div id="kiri">
+KONTEN KIRI
+</div>
+<div id="kanan">
+KONTEN KANAN<br /> KONTEN KANAN<br />
+KONTEN KANAN<br /> KONTEN KANAN<br />
+KONTEN KANAN<br /> KONTEN KANAN<br />
+KONTEN KANAN<br /> KONTEN KANAN<br />
+KONTEN KANAN<br /> KONTEN KANAN<br />
+</div>
+<div class="clearfloat"></div>
+</div>
+<div id="footer">
+<div id="copyright">
+Copyright by Javaziez
+</div>
+</div>
+	</body>
+</html>
